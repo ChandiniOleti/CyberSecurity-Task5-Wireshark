@@ -27,40 +27,35 @@ To capture live network packets using Wireshark and identify multiple network pr
 ### 1. HTTP
 - **Purpose:** Transfers web pages and data between web browsers and servers.
 - **Example from Capture:** HTTP GET request for `/igd.xml` from local IP `10.10.32.131`.
-- **Screenshot:**  
-  ![HTTP Packet](screenshots/http_packet.png)
+
 
 ---
 
 ### 2. DNS
 - **Purpose:** Resolves human-readable domain names into IP addresses.
 - **Example from Capture:** Query to `dns.google` (8.8.8.8) for domain resolution.
-- **Screenshot:**  
-  ![DNS Packet](screenshots/dns_packet.png)
+
 
 ---
 
 ### 3. TCP
 - **Purpose:** Ensures reliable, ordered communication between devices over the network.
 - **Example from Capture:** TCP ACK packet between local IP and remote server, part of a handshake.
-- **Screenshot:**  
-  ![TCP Packet](screenshots/tcp_packet.png)
+
 
 ---
 
 ### 4. UDP
 - **Purpose:** Connectionless protocol for fast, lightweight data transfer without reliability overhead.
 - **Example from Capture:** Multicast DNS (mDNS) response from a device on the local network.
-- **Screenshot:**  
-  ![UDP Packet](screenshots/udp_packet.png)
+
 
 ---
 
 ### 5. ICMPv6
 - **Purpose:** Used for diagnostic messages and neighbor discovery in IPv6 networks.
 - **Example from Capture:** Neighbor Solicitation message for IPv6 address resolution.
-- **Screenshot:**  
-  ![ICMPv6 Packet](screenshots/icmpv6_packet.png)
+)
 
 ---
 
